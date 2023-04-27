@@ -19,6 +19,7 @@ export const ProductCard = ({ product }) => {
         }
     }, [cartList, id]);
 
+
     return (
         <div className="productCard">
             <img src={image} alt={name} />

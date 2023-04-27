@@ -4,6 +4,7 @@ import { useCart } from "../context/CartContext";
 import Logo from "../assets/logo.png";
 
 
+
 export const Header = () => {
     const { cartList } = useCart();
     return (
